@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+
+# Environment secrets
+.env
+.env.*
+
+# Local databases and execution history
+app/db/*.db
+app/db/*.sqlite
+app/db/*.sqlite3
+
+# Frontend generated files
+frontend/node_modules/
+frontend/dist/
+
+# Operating system and editor files
+.DS_Store
+.vscode/
+
+# Backup files
+*.bak
+*.backup
+*.before*
+
+# Generated validation reports
+validation-report-*.json
